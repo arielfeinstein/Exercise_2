@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_question_result"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="@string/sample_question_text"
+        android:textSize="24sp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:rowCount="2"
+        android:columnCount="2"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="center"
+            android:paddingHorizontal="8dp" >
+
+            <TextView
+                android:id="@+id/tv_option_char_a"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/char_a"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_option_txt_a"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingHorizontal="8dp"
+                android:text="@string/sample_option1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="center"
+            android:paddingHorizontal="8dp" >
+
+            <TextView
+                android:id="@+id/tv_option_char_b"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/char_b"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_option_txt_b"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingHorizontal="8dp"
+                android:text="@string/sample_option2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="center"
+            android:paddingHorizontal="8dp" >
+
+            <TextView
+                android:id="@+id/tv_option_char_c"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/char_c"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_option_txt_c"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingHorizontal="8dp"
+                android:text="@string/sample_option3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="center"
+            android:paddingHorizontal="8dp" >
+
+            <TextView
+                android:id="@+id/tv_option_char_d"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/char_d"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_option_txt_d"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingHorizontal="8dp"
+                android:text="@string/sample_option4" />
+        </LinearLayout>
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/tv_correctness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sample_correctness_message"
+        android:gravity="center"/>
+
+</LinearLayout>

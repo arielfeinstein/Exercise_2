@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.TriviaActivity"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_question"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/sample_question_text"
+        android:textSize="24sp"
+        android:layout_margin="8dp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_margin="8dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_option1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sample_option1"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rectangular_button"/>
+
+        <Button
+            android:id="@+id/btn_option2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sample_option2"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rectangular_button"/>
+
+        <Button
+            android:id="@+id/btn_option3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sample_option3"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rectangular_button"/>
+
+        <Button
+            android:id="@+id/btn_option4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sample_option4"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rectangular_button" />
+
+        <Button
+            android:id="@+id/btn_finished"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_finished"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.TriviaActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_question"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="@string/sample_question_text"
+        android:textSize="24sp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:rowCount="2"
+        android:columnCount="2"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginHorizontal="10dp">
+
+        <Button
+            android:id="@+id/btn_option1"
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="center"
+            android:text="@string/sample_option1"
+            android:layout_margin="5dp"
+            android:background="@drawable/rectangular_button"/>
+
+        <Button
+            android:id="@+id/btn_option2"
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="center"
+            android:text="@string/sample_option2"
+            android:layout_margin="5dp"
+            android:background="@drawable/rectangular_button"/>
+
+        <Button
+            android:id="@+id/btn_option3"
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="center"
+            android:text="@string/sample_option3"
+            android:layout_marginHorizontal="5dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/rectangular_button"/>
+
+        <Button
+            android:id="@+id/btn_option4"
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="center"
+            android:text="@string/sample_option4"
+            android:layout_marginHorizontal="5dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/rectangular_button" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btn_finished"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_finished"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:visibility="gone" />
+
+
+</LinearLayout>

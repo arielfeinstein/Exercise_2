@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Trivia</string>
+    <!-- Trivia questions and answers. First answer is correct -->
+    <string-array name="trivia_data">
+        <item>What does CPU stand for? {Central Processing Unit|Central Programming Unit|Computer Processing Unit|Core Processing Unit}</item>
+        <item>What is the primary purpose of an operating system? {To manage hardware and software resources|To execute specific applications|To store and retrieve data|To connect to the internet}</item>
+        <item>Which programming language is known as the "language of the web"? {JavaScript|Python|C++|Java}</item>
+        <item>What is the binary representation of the decimal number 10? {1010|1001|1110|1101}</item>
+        <item>What is Big-O notation used for? {To describe algorithm efficiency|To measure program size|To calculate memory usage|To test code readability}</item>
+    </string-array>
+
+    <!-- main activity strings -->
+    <string name="main_activity_heading">WELCOME</string>
+    <string name="main_activity_start_btn_txt">Start trivia</string>
+
+    <!-- result activity strings -->
+    <string name="table_heading_col1">Question</string>
+    <string name="table_heading_col2">Your answer</string>
+    <string name="table_heading_col3">Correct answer</string>
+    <string name="btn_try_again">Try again</string>
+    <string name="btn_see_details">See detailed result</string>
+
+    <!-- trivia activity strings -->
+    <string name="sample_question_text">Question text</string>
+    <string name="sample_option1">option 1</string>
+    <string name="sample_option2">option 2</string>
+    <string name="sample_option3">option 3</string>
+    <string name="sample_option4">option 4</string>
+    <string name="btn_next_question">Next question</string> <!-- delete later -->
+    <string name="btn_finished">See results</string>
+    <string name="tv_finished">Trivia finished. Ready to see your results?</string>
+
+    <!-- fragment result strings -->
+    <string name="char_a">a</string>
+    <string name="char_b">b</string>
+    <string name="char_c">c</string>
+    <string name="char_d">d</string>
+    <string name="sample_correctness_message">You are correct/incorrect.</string>
+    <string name="correct_msg">You are correct!</string>
+    <string name="incorrect_msg">You are incorrect. In green is the correct answer and in red is the selected answer.</string>
+
+
+</resources>
